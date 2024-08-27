@@ -19,6 +19,7 @@ jobs:
           node-version: '18'
       - run: npm install -g yarn
       - run: yarn
+      - run: yarn docs:build
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
