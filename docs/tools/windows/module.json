@@ -1,0 +1,30 @@
+{
+  "name": "windows",
+  "path": "/tools/windows",
+  "sidebar": [
+    {
+      "text": "关于",
+      "link": "/home"
+    },
+    {
+      "text": "wsl2",
+      "link": "/wsl2"
+    },
+    {
+      "text": "bat",
+      "link": "/bat"
+    },
+    {
+      "text": "设置开机自启动任务",
+      "link": "/设置开机自启动任务"
+    },
+    {
+      "text": "更改睡眠选项",
+      "link": "/更改睡眠选项"
+    },
+    {
+      "text": "设置开机自动登录",
+      "link": "/设置开机自动登录"
+    }
+  ]
+}

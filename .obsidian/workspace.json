@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "34a7ad5cdb70e1f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "59cf830514944785",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60b181d89cdada80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsi/welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c3da80351009964",
+    "type": "split",
+    "children": [
+      {
+        "id": "41d23f5b8934e3aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "766e907c4e08ebf1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "744021a92b43723c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#music/tune/C",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "085ea08e1c1a497c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff4ada55f226bade",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263.5
+  },
+  "right": {
+    "id": "e963a74ff54c9d0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd829c7beb499495",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c9ec3eff60e4daa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsi/welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52e8a5d9c898b98b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsi/welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e124d14f4b38d48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7d2e4bf9e6d9dcd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsi/welcome.md"
+              }
+            }
+          },
+          {
+            "id": "522cb9cf0b0f636e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "bfc92bf005fd1c65",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
+      "terminal:Open terminal": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "60b181d89cdada80",
+  "lastOpenFiles": [
+    "docs/learning/git/常用命令.md",
+    "docs/assets/pasted-file-image.png",
+    "docs/assets/pasted-file-20240714181641.png",
+    "docs/learning/git/paste-image-20240714181044.png",
+    "docs/assets/pasted-file-image-1.png",
+    "docs/learning/git/20240714180845.png",
+    "docs/assets/pasted-file-${time}-[Date.now()]-image.png",
+    "docs/assets/pasted-file-${Date.now()}-${Date.now()+fileName}",
+    "docs/assets/pasted-file-${Date.now()}-image.png",
+    "docs/assets/pasted-file-${Date.now()-}image.png",
+    "docs/assets/image.png",
+    "docs/assets-1.png",
+    "docs/assets-3",
+    "docs/assets-2",
+    "docs/assets-1",
+    "docs/learning/git/assets/常用命令",
+    "docs/learning/git/assets",
+    "docs/learning/git/常用操作.md",
+    "docs/resources/musicScore/明天你好.md",
+    "public/static/app.ItxKsk8i.js",
+    "public/static/chunks/arc.DDuWAldX.js",
+    "public/static/chunks/classDiagram-fb54d2a0.C0Ky0Klm.js",
+    "public/static/chunks/line.ChKuw4sA.js",
+    "docs/resources/musicScore/萱草花.md",
+    "docs/resources/musicScore/像我这样的人.md",
+    "docs/resources/musicScore/如愿.md",
+    "docs/resources/musicScore/紫罗兰.md",
+    "docs/resources/musicScore/迷雾.md",
+    "docs/resources/musicScore/todo.md",
+    "docs/resources/musicScore/index.md",
+    "docs/resources/musicScore/index copy.md",
+    "docs/resources/musicScore/亲爱的小孩.md",
+    "docs/resources/musicScore/别了夏天.md",
+    "docs/resources/musicScore/只要平凡.md",
+    "docs/resources/musicScore/一次就好.md",
+    "docs/resources/musicScore/一生所爱.md",
+    "docs/resources/musicScore/因为爱情.md",
+    "docs/resources/musicScore/约定.md",
+    "docs/resources/musicScore/人世间.md",
+    "docs/resources/musicScore/后会无期.md",
+    "docs/resources/musicScore/后来.md",
+    "docs/resources/musicScore/我要你.md",
+    "docs/resources/musicScore/心愿.md",
+    "obsi/tags/tags.md",
+    "obsi/snippets/文档-曲谱.md",
+    "obsi/snippets/frontmatter-normal.md",
+    "未命名.canvas"
+  ]
+}

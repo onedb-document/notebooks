@@ -1,0 +1,53 @@
+/* 适配mermaid图表 */
+.mermaid {
+  width: 100%;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.mermaid svg {
+  width: 100%;
+  background-color: #fff;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+pre.mermaid {
+  margin: 0;
+}
+
+/* 适配组件 */
+.vp-collapse-item p {
+  margin: 0;
+}
+
+/* 插入的代码playground，例如codesandbox */
+iframe {
+  margin: 16px 0;
+}
+
+/* 覆盖element的style样式 */
+.VPSidebarItem h2 {
+  margin: 0;
+}
+
+.VPMenu .label {
+  margin: 0;
+}
+
+.VPHomeFeatures .title {
+  margin: 0;
+}
+
+.VPHomeFeatures .details {
+  margin: 0;
+}
+
+/* 优化文档的样式 */
+.VPDoc p a {
+  padding: 0 4px;
+}
+/* .VPDoc img {
+  margin: 0 auto;
+} */

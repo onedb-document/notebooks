@@ -1,0 +1,10 @@
+{
+  "name": "vitepress",
+  "path": "/tools/vitepress",
+  "sidebar": [
+    {
+      "text": "介绍",
+      "link": "/home"
+    }
+  ]
+}

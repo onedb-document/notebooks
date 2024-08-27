@@ -1,0 +1,22 @@
+{
+  "name": "frp",
+  "path": "/tools/frp",
+  "sidebar": [
+    {
+      "text": "简介",
+      "link": "/home"
+    },
+    {
+      "text": "安装",
+      "link": "/install"
+    },
+    {
+      "text": "管理",
+      "link": "/systemd"
+    },
+    {
+      "text": "总结",
+      "link": "/summary"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "hobby",
+  "path": "/hobby",
+  "sidebar": [
+    {
+      "text": "音乐",
+      "items": [
+        {
+          "text": "曲谱",
+          "link": "/musicScore/home"
+        },
+        {
+          "text": "乐理",
+          "link": "/乐理/home"
+        },
+        {
+          "text": "口琴",
+          "link": "/口琴/home"
+        },
+        {
+          "text": "吉他",
+          "link": "/吉他/home"
+        }
+      ]
+    },
+    {
+      "text": "健身",
+      "link": "/sport/home"
+    }
+  ]
+}

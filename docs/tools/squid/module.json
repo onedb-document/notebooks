@@ -1,0 +1,10 @@
+{
+  "name": "squid",
+  "path": "/tools/squid",
+  "sidebar": [
+    {
+      "text": "简介",
+      "link": "/home"
+    }
+  ]
+}

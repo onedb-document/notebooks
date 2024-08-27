@@ -1,0 +1,53 @@
+{
+  "name": "js",
+  "path": "/learning/js",
+  "sidebar": [
+    {
+      "text": "基础操作",
+      "items": [
+        {
+          "text": "基础类型",
+          "link": "/基础类型"
+        },
+        {
+          "text": "字符串操作",
+          "link": "/字符串操作"
+        },
+        {
+          "text": "数组操作",
+          "link": "/数组操作"
+        },
+        {
+          "text": "对象操作",
+          "link": "/对象操作"
+        }
+      ]
+    },
+    {
+      "text": "es6学习",
+      "items": [
+        {
+          "text": "let、const",
+          "link": "/声明"
+        },
+        {
+          "text": "Enum",
+          "link": "/Enum"
+        }
+      ]
+    },
+    {
+      "text": "进阶学习",
+      "items": [
+        {
+          "text": "链表操作",
+          "link": "/链表操作"
+        },
+        {
+          "text": "基础类型",
+          "link": "/基础类型"
+        }
+      ]
+    }
+  ]
+}

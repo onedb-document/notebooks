@@ -1,0 +1,30 @@
+{
+  "name": "mermaid",
+  "path": "/tools/mermaid",
+  "sidebar": [
+    {
+      "text": "介绍",
+      "link": "/home"
+    },
+    {
+      "text": "流程图",
+      "link": "/流程图"
+    },
+    {
+      "text": "时序图",
+      "link": "/时序图"
+    },
+    {
+      "text": "Git图",
+      "link": "/Git图"
+    },
+    {
+      "text": "状态图",
+      "link": "/状态图"
+    },
+    {
+      "text": "类图",
+      "link": "/类图"
+    }
+  ]
+}

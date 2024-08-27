@@ -1,0 +1,14 @@
+{
+  "name": "v2ray",
+  "path": "/tools/v2ray",
+  "sidebar": [
+    {
+      "text": "简介",
+      "link": "/home"
+    },
+    {
+      "text": "安装",
+      "link": "/install"
+    }
+  ]
+}
