@@ -14,7 +14,6 @@ FROM nginx:latest
 
 # 复制静态资源文件html、css、js、png等等
 COPY --from=build /app/docs/.vitepress/dist/ /usr/share/nginx/html/notebooks/
-COPY ./nginx.notebooks.conf /etc/nginx/conf.d/default.conf
 
 ENV TZ="Asia/Shanghai"
 

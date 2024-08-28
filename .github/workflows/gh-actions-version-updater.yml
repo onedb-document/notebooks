@@ -1,9 +1,6 @@
 name: gh-actions-version-updater
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     # Automatically run on every Day
     - cron: "0 0 * * *"

@@ -17,14 +17,21 @@ jobs:
         uses: actions/setup-node@v4.0.3
         with:
           node-version: '18'
-      - run: npm install -g yarn
-      - run: yarn
-      - run: yarn docs:build
+
+      - # 这里注意下ubuntu cp命令的区别，不然dist目录本身会被拷贝进去
+        name: Build
+        run: |
+          npm install -g yarn
+          yarn
+          yarn docs:build
+          mkdir -p public/notebooks
+          cp -R -i docs/.vitepress/dist/* public/notebooks/
+          ls public/notebooks
 
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         with:
-          args: deploy --dir=docs/.vitepress/dist --base=/notebooks/ --prod
+          args: deploy --dir=public --prod
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
