@@ -10,6 +10,16 @@ services:
     networks:
       - onedb-net
 
+  notebooks-test-svc:
+    image: wangdongbing/notebooks-test:latest
+    container_name: notebooks
+    # ports:
+    #   - '9091:80'
+    volumes:
+      - ./.github/nginx.notebooks.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - onedb-net
+
 networks:
   onedb-net:
     name: onedb-net
