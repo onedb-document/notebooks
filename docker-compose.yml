@@ -11,8 +11,8 @@ services:
       - onedb-net
 
   notebooks-test-svc:
-    image: wangdongbing/notebooks-test:latest
-    container_name: notebooks
+    image: wangdongbing/notebooks:test
+    container_name: notebooks-test
     # ports:
     #   - '9091:80'
     volumes:
