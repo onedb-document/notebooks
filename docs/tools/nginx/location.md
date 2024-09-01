@@ -1,8 +1,3 @@
----
-toc: menu
-order: 6
----
-
 # location
 
 ## 官方文档

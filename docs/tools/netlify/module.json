@@ -1,0 +1,10 @@
+{
+  "name": "netlify",
+  "path": "/tools/netlify",
+  "sidebar": [
+    {
+      "text": "netlify",
+      "link": "/home"
+    }
+  ]
+}

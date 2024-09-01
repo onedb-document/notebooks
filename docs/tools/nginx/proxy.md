@@ -1,8 +1,3 @@
----
-toc: menu
-order: 6
----
-
 # 代理、缓存设置
 
 ## proxy_pass 反向代理

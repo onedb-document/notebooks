@@ -1,0 +1,34 @@
+{
+  "name": "nginx",
+  "path": "/tools/nginx",
+  "sidebar": [
+    {
+      "text": "介绍",
+      "link": "/home"
+    },
+    {
+      "text": "部署",
+      "link": "/install"
+    },
+    {
+      "text": "使用容器部署",
+      "link": "/container"
+    },
+    {
+      "text": "配置https",
+      "link": "/https"
+    },
+    {
+      "text": "配置location",
+      "link": "/location"
+    },
+    {
+      "text": "配置反向代理",
+      "link": "/proxy"
+    },
+    {
+      "text": "配置负载均衡",
+      "link": "/upstream"
+    }
+  ]
+}

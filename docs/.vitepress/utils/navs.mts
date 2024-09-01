@@ -50,6 +50,11 @@ const toolNavs: DefaultTheme.NavItem[] = [
         activeMatch: '/tools/v2ray',
       },
       {
+        text: '网站部署',
+        link: '/tools/netlify/home',
+        activeMatch: '/tools/netlify',
+      },
+      {
         text: '操作系统',
         link: '/tools/windows/home',
         activeMatch: '/tools/windows',

@@ -6,6 +6,7 @@ import { ModuleConfig } from '../type'
 const needMergeModules = [
   ['windows', 'macOS'],
   ['v2ray', 'squid'],
+  ['netlify', 'nginx'],
 ]
 
 /** 从文件中获取配置，并进行校验 */
