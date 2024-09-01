@@ -12,6 +12,9 @@ jobs:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
     with:
+      afterCheckOut: |
+        cp -R .github/deploy-docker/* .
+        ls .
       platforms: linux/amd64
       push: true
       tags: wangdongbing/notebooks:latest

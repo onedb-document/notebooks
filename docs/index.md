@@ -16,5 +16,3 @@ features:
   - title: 目标
     details: 坚持学习的习惯，并一直保持下去✊
 ---
-
-## just for test
