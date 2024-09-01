@@ -39,6 +39,7 @@ jobs:
             rm -rf ~/gh-projects/notebooks
             git clone "https://github.com/onedb-document/notebooks.git" ~/gh-projects/notebooks
             cd ~/gh-projects/notebooks
+            cp -R .github/deploy-docker/* .
             echo '仓库准备完毕，启动服务'
             docker-compose up -d --pull always
             echo '运行成功'
