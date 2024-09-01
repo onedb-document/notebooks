@@ -4,7 +4,7 @@
   "description": "notebooks",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "cross-env NODE_ENV=dev vitepress dev docs --port 3333",
+    "docs:dev": "cross-env NODE_ENV=dev vitepress dev docs --port 80",
     "docs:build": "cross-env NODE_ENV=prod vitepress build docs"
   },
   "author": "",

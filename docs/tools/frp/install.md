@@ -1,5 +1,11 @@
 # 安装
 
+> [!tip] 小结
+>
+> - 下载 frp 的二进制文件，以在服务端、客户端安装
+> - 在服务端配置和部署 frps 服务
+> - 在客户端配置和部署 frpc 服务
+
 ## 下载
 
 从 github 的[release](https://github.com/fatedier/frp/releases)中获取最新版本的客户端和服务器二进制文件，目前最新版本是`0.59.0`。

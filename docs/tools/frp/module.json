@@ -7,12 +7,16 @@
       "link": "/home"
     },
     {
-      "text": "安装",
+      "text": "部署",
       "link": "/install"
     },
     {
       "text": "管理",
       "link": "/systemd"
+    },
+    {
+      "text": "使用docker部署",
+      "link": "/deploy-docker"
     },
     {
       "text": "总结",

@@ -63,24 +63,25 @@ const toolNavs: DefaultTheme.NavItem[] = [
   },
 ]
 
-const hobbyNavs: DefaultTheme.NavItem[] = [
+const sharedNavs: DefaultTheme.NavItem[] = [
   {
-    text: '兴趣爱好',
-    activeMatch: '/hobby',
-    items: [
-      {
-        text: '音乐',
-        link: '/hobby/musicScore/home',
-        activeMatch: '/hobby/musicScore',
-      },
-      // {
-      //   text: '健身',
-      //   link: '/hobby/sport/home',
-      //   activeMatch: '/hobby/sport',
-      // },
-    ],
+    text: '分享',
+    activeMatch: '/shared',
+    link: '/shared/docker-images/home',
+    // items: [
+    //   {
+    //     text: 'docker镜像',
+    //     link: '/shared/docker-images/home',
+    //     activeMatch: '/shared/docker-images',
+    //   },
+    //   {
+    //     text: '乐谱',
+    //     link: '/shared/musicScore/home',
+    //     activeMatch: '/shared/musicScore',
+    //   },
+    // ],
   },
 ]
 
 /** vitepress的导航栏 */
-export const nav: DefaultTheme.NavItem[] = [...learningNavs, ...toolNavs, ...hobbyNavs]
+export const nav: DefaultTheme.NavItem[] = [...learningNavs, ...toolNavs, ...sharedNavs]

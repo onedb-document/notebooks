@@ -100,7 +100,7 @@ sudo systemctl restart v2ray
 ### 资源备份
 
 - [(ClashX-Pro-v1.116.1.1.dmg)](https://www.teambition.com/project/656db483127225c2ecd166ae/works/66c055b659e751b91b6d703e/work/66c055ff820247a57b18e09a)
-- [https://v2xtls.org/clash_template2.yaml](../../resources/clash_template2.yaml)
+- [https://v2xtls.org/clash_template2.yaml](../../shared/static-files/clash_template2.yaml)
 
 ## 参考
 

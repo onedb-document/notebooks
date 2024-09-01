@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "path": "/shared",
+  "sidebar": [
+    {
+      "text": "docker镜像",
+      "link": "/docker-images/home"
+    },
+    {
+      "text": "乐谱",
+      "link": "/musicScore/home"
+    }
+  ]
+}
