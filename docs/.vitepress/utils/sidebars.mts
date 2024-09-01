@@ -103,15 +103,7 @@ class ModuleManager {
           collapsed: true,
           items: [this.genSingleSidebar('netlify'), this.genSingleSidebar('nginx')],
         },
-        {
-          text: '系统操作记录',
-          collapsed: true,
-          items: [
-            this.genSingleSidebar('linux'),
-            this.genSingleSidebar('macOS'),
-            this.genSingleSidebar('windows'),
-          ],
-        },
+        this.genSingleSidebar('system-operation', { text: '系统操作整理' }),
       ],
     }
   }

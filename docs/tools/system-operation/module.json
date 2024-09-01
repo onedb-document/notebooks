@@ -1,0 +1,22 @@
+{
+  "name": "system-operation",
+  "path": "/tools/system-operation",
+  "sidebar": [
+    {
+      "text": "linux",
+      "link": "/linux"
+    },
+    {
+      "text": "windows",
+      "link": "/windows"
+    },
+    {
+      "text": "windows-wsl2",
+      "link": "/windows-wsl2"
+    },
+    {
+      "text": "macOS",
+      "link": "/macOS"
+    }
+  ]
+}
