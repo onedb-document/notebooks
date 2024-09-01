@@ -2,16 +2,15 @@
 
 ## 前端语言
 
-- [javascript]()
-- [typescript]()
-- [nodejs]()
-- [MDN]()
+- [typescript](https://www.typescriptlang.org/)
+- [nodejs](https://nodejs.org/zh-cn)
+- [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
 ## 前端框架
 
 - [react](https://react.docschina.org/)
-- [vue2]()
-- [vue3]()
+- [vue2](https://v2.cn.vuejs.org/)
+- [vue3](https://cn.vuejs.org/)
 
 ## 前端 ui
 
@@ -23,7 +22,12 @@
 ## 前端工程化
 
 - [webpack](https://webpack.docschina.org/)
+- [rollup](https://rollupjs.org/)
 - [vite](https://vitejs.cn/)
+
+## react 三方库
+
+- [use-immer](https://github.com/immerjs/use-immer)
 
 ## 前端工具
 
@@ -32,4 +36,5 @@
 
 ## 一些博客
 
-- [阮一峰 es6]()
+- [阮一峰 es6](https://es6.ruanyifeng.com/)
+- [阮一峰 typescript](https://wangdoc.com/typescript/)

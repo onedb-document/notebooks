@@ -7,10 +7,6 @@
       "link": "/frontend"
     },
     {
-      "text": "后端",
-      "link": "/backend"
-    },
-    {
       "text": "运维",
       "link": "/devops"
     }
