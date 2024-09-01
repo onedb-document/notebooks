@@ -4,13 +4,13 @@ import "element-plus/dist/index.css";
 import { App } from 'vue'
 
 // // reset
-import "element-plus/theme-chalk/src/reset.scss";
-import "element-plus/theme-chalk/src/index.scss";
-// // for dark mode
-import "element-plus/theme-chalk/src/dark/css-vars.scss";
+// import "element-plus/theme-chalk/src/reset.scss";
+// import "element-plus/theme-chalk/src/index.scss";
+// // // for dark mode
+// import "element-plus/theme-chalk/src/dark/css-vars.scss";
 
-import "./styles/css-vars.scss";
-import "./styles/app.scss";
+// import "./styles/css-vars.scss";
+// import "./styles/app.scss";
 
 export const elementPlus = (app: App) => {
     app.use(ElementPlus);

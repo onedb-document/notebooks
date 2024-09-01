@@ -3,12 +3,6 @@ import fs from 'fs'
 import path from 'path'
 import { ModuleConfig } from '../type'
 
-const needMergeModules = [
-  ['windows', 'macOS'],
-  ['v2ray', 'squid'],
-  ['netlify', 'nginx'],
-]
-
 /** 从文件中获取配置，并进行校验 */
 const getModuleConifg = (filePath: string) => {
   const text = fs.readFileSync(filePath, { encoding: 'utf-8' })
@@ -70,48 +64,56 @@ class ModuleManager {
     console.log('解析结果：', this.modules)
   }
 
-  /** 合并某些模块的sidebar */
-  private getMergeSidebar(moduleNames: string[]) {
-    const moduleConfigs = moduleNames
-      .map(name => this.modules.find(module => module.name === name))
-      .filter(Boolean) as ModuleConfig[]
-
-    const newSidebarValues: DefaultTheme.SidebarItem[] = moduleConfigs.map(
-      (module, idx) => ({
-        text: module.name,
-        items: module.sidebar,
-        // collapsed: idx !== 0,
-        collapsed: true,
-      }),
-    )
-
-    const mergedSidebars = moduleConfigs.reduce(
-      (tmp, item) => ({ [item.path]: newSidebarValues, ...tmp }),
-      {} as { [path: string]: DefaultTheme.SidebarItem[] },
-    )
-
-    return mergedSidebars
+  /** 根据模块name生成sidebar */
+  private genSingleSidebar(
+    moduleName: string,
+    { text }: DefaultTheme.SidebarItem = {},
+  ): DefaultTheme.SidebarItem {
+    const module = this.modules.find(module => module.name === moduleName)
+    return {
+      text: text ?? module?.name,
+      items: module?.sidebar,
+    }
   }
 
-  /** 获取整体的sidebar */
-  getMultiSidebar() {
-    let sidebar = {}
+  private genMultiSidebar(moduleNames: string[]): DefaultTheme.SidebarMulti {
+    const multiSidebar = moduleNames
+      .map(name => this.modules.find(module => name === module.name))
+      .filter(Boolean)
+      .reduce((tmp, item) => ({ ...tmp, [item?.path ?? '']: item?.sidebar }), {})
 
-    this.modules.forEach(item => {
-      sidebar = { ...sidebar, [item.path]: item.sidebar }
-    })
-
-    needMergeModules
-      .map(item => this.getMergeSidebar(item))
-      .forEach(item => {
-        sidebar = { ...sidebar, ...item }
-      })
-    return sidebar
+    console.log('multiSidebar', multiSidebar)
+    return multiSidebar
   }
 
-  async getSidebar() {
+  async getSidebar(): Promise<DefaultTheme.Sidebar> {
     await this.initModules()
-    return this.getMultiSidebar()
+    return {
+      ...this.genMultiSidebar(['git', 'js', 'advices', 'mistakes', 'shared']),
+      ['/tools/']: [
+        this.genSingleSidebar('webnav', { text: '网址导航' }),
+        this.genSingleSidebar('frp', { text: '内网穿透' }),
+        {
+          text: '网络代理',
+          collapsed: true,
+          items: [this.genSingleSidebar('v2ray'), this.genSingleSidebar('squid')],
+        },
+        {
+          text: '网站部署',
+          collapsed: true,
+          items: [this.genSingleSidebar('netlify'), this.genSingleSidebar('nginx')],
+        },
+        {
+          text: '系统操作记录',
+          collapsed: true,
+          items: [
+            this.genSingleSidebar('linux'),
+            this.genSingleSidebar('macOS'),
+            this.genSingleSidebar('windows'),
+          ],
+        },
+      ],
+    }
   }
 }
 

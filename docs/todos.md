@@ -22,6 +22,7 @@
 - 唤端技术方案：https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEwx2nzNHKpbNN0l8yeZqMmz?utm_scene=team_space
 - 代码复用-乾坤加载子应用
 - 错误使用 js 数组的 sort 函数
+- DNS: https://www.ruanyifeng.com/blog/2022/08/dns-query.html
 
 ## 后期需要完成
 

@@ -32,39 +32,8 @@ const learningNavs: DefaultTheme.NavItem[] = [
 const toolNavs: DefaultTheme.NavItem[] = [
   {
     text: '工具',
+    link: '/tools/webnav/frontend',
     activeMatch: '/tools/webnav',
-    items: [
-      {
-        text: '网址导航',
-        link: '/tools/webnav/frontend',
-        activeMatch: '/tools/webnav',
-      },
-      {
-        text: '内网穿透',
-        link: '/tools/frp/home',
-        activeMatch: '/tools/frp',
-      },
-      {
-        text: '网络代理',
-        link: '/tools/v2ray/home',
-        activeMatch: '/tools/v2ray',
-      },
-      {
-        text: '网站部署',
-        link: '/tools/netlify/home',
-        activeMatch: '/tools/netlify',
-      },
-      {
-        text: '操作系统',
-        link: '/tools/windows/home',
-        activeMatch: '/tools/windows',
-      },
-      {
-        text: '文档绘图',
-        link: '/tools/mermaid/home',
-        activeMatch: '/tools/mermaid',
-      },
-    ],
   },
 ]
 
@@ -73,18 +42,6 @@ const sharedNavs: DefaultTheme.NavItem[] = [
     text: '分享',
     activeMatch: '/shared',
     link: '/shared/docker-images/home',
-    // items: [
-    //   {
-    //     text: 'docker镜像',
-    //     link: '/shared/docker-images/home',
-    //     activeMatch: '/shared/docker-images',
-    //   },
-    //   {
-    //     text: '乐谱',
-    //     link: '/shared/musicScore/home',
-    //     activeMatch: '/shared/musicScore',
-    //   },
-    // ],
   },
 ]
 
