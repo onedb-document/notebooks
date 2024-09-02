@@ -14,6 +14,11 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
+    footer: {
+      message: '© 吹口琴的喵',
+      copyright:
+        '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2024124464号-1</a> <span>苏公网安备32092402000207号</span>',
+    },
     search: { provider: 'local' },
     outline: { level: [2, 4] },
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],

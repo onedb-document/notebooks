@@ -8,13 +8,16 @@
 
 - frp
 - 网站部署，nginx、netlify
-- 网站导航
 
 ## 短期需要完成
 
 - v2ray
-- shell 学习
+- Docker
+- k8s
 - 流程图绘制工具 plantuml
+- vitepress
+- jenkins
+- shell 学习
 - git 整理，github actions 等
 - lodash
 - 记录正则千分位 /\B(?=(\d{3})+(?!\d))/g /\B(?=(\d{3})+$)/g
