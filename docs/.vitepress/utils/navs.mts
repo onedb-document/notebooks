@@ -18,14 +18,14 @@ const learningNavs: DefaultTheme.NavItem[] = [
     ],
   },
   {
-    text: '他山之石',
-    activeMatch: '/advices',
-    link: '/advices/home',
-  },
-  {
     text: '错题集',
     activeMatch: '/mistakes',
     link: '/mistakes/home',
+  },
+  {
+    text: '专题总结',
+    activeMatch: '/subjects',
+    link: '/subjects/html-layout/home',
   },
 ]
 

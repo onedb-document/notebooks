@@ -2,12 +2,12 @@
 layout: home
 hero:
   name: 吾日三省吾身
-  text: 
-  tagline: 见不贤而内自省也
+  text:
+  tagline:
   actions:
     - theme: brand
       text: 开始浏览
-      link: /mistakes/test
+      link: /mistakes/js/common
 features:
   - title: 内容
     details: 自己/他人的代码缺陷；<br />问题/故障的复盘反思...

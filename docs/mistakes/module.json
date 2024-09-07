@@ -1,0 +1,29 @@
+{
+  "name": "mistakes",
+  "path": "/mistakes",
+  "sidebar": [
+    {
+      "text": "见不贤而内自省也",
+      "items": [
+        {
+          "text": "js",
+          "items": [
+            {
+              "text": "js常见错误",
+              "link": "/js/common"
+            }
+          ]
+        },
+        {
+          "text": "css",
+          "items": [
+            {
+              "text": "css常见错误",
+              "link": "/css/common"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

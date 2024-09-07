@@ -61,17 +61,17 @@ class ModuleManager {
     this.modules = files
       .map(path => getModuleConifg(path))
       .map(moduleConfig => transformModuleConifg(moduleConfig))
-    console.log('解析结果：', this.modules)
   }
 
   /** 根据模块name生成sidebar */
   private genSingleSidebar(
     moduleName: string,
-    { text }: DefaultTheme.SidebarItem = {},
+    config: DefaultTheme.SidebarItem = {},
   ): DefaultTheme.SidebarItem {
     const module = this.modules.find(module => module.name === moduleName)
     return {
-      text: text ?? module?.name,
+      ...config,
+      text: config.text ?? module?.name,
       items: module?.sidebar,
     }
   }
@@ -82,17 +82,16 @@ class ModuleManager {
       .filter(Boolean)
       .reduce((tmp, item) => ({ ...tmp, [item?.path ?? '']: item?.sidebar }), {})
 
-    console.log('multiSidebar', multiSidebar)
     return multiSidebar
   }
 
   async getSidebar(): Promise<DefaultTheme.Sidebar> {
     await this.initModules()
     return {
-      ...this.genMultiSidebar(['git', 'js', 'advices', 'mistakes', 'shared']),
+      ...this.genMultiSidebar(['git', 'js', 'mistakes', 'shared', 'subjects']),
       ['/tools/']: [
         this.genSingleSidebar('webnav', { text: '网址导航' }),
-        this.genSingleSidebar('frp', { text: '内网穿透' }),
+        this.genSingleSidebar('frp', { text: '内网穿透', collapsed: true }),
         {
           text: '网络代理',
           collapsed: true,
@@ -103,7 +102,10 @@ class ModuleManager {
           collapsed: true,
           items: [this.genSingleSidebar('netlify'), this.genSingleSidebar('nginx')],
         },
-        this.genSingleSidebar('system-operation', { text: '系统操作整理' }),
+        this.genSingleSidebar('system-operation', {
+          text: '系统操作整理',
+          collapsed: true,
+        }),
       ],
     }
   }
@@ -112,3 +114,6 @@ class ModuleManager {
 const moduleManager = new ModuleManager()
 
 export const sidebar = await moduleManager.getSidebar()
+
+// console.log('sidebar', JSON.stringify(sidebar, null, 2))
+console.log('sidebar', JSON.stringify(sidebar))
