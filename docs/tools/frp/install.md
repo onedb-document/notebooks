@@ -1,10 +1,14 @@
-# 安装
+# 部署
 
-> [!tip] 小结
+> [!tip] 概要
 >
 > - 下载 frp 的二进制文件，以在服务端、客户端安装
 > - 在服务端配置和部署 frps 服务
 > - 在客户端配置和部署 frpc 服务
+
+> [!tip] 资源
+>
+> - [github release 地址](https://github.com/fatedier/frp/releases)
 
 ## 下载
 

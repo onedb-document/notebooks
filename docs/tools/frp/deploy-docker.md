@@ -1,6 +1,6 @@
 # 使用 docker 部署
 
-> [!tip] 小结
+> [!tip] 概要
 >
 > - 在服务端使用 docker-compose 部署 frps 服务
 > - 在客户端使用 docekr-compose 部署 frpc 服务

@@ -3,7 +3,7 @@
   "path": "/tools/squid",
   "sidebar": [
     {
-      "text": "简介",
+      "text": "部署",
       "link": "/home"
     }
   ]

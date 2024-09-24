@@ -1,4 +1,14 @@
-# 安装
+# 部署
+
+> [!tip] 概要
+>
+> - 服务端，部署`v2ray`服务
+> - 客户端，使用`ClashX(macOS)`软件连接代理，还有若干配置
+
+> [!tip] 资源
+>
+> - [(ClashX-Pro-v1.116.1.1.dmg)](https://v2xtls.org/download.php?filename=/v2/macos/ClashX-Pro-v1.116.1.1.dmg)
+> - [https://v2xtls.org/clash_template2.yaml](https://v2xtls.org/clash_template2.yaml)
 
 ## 服务器端
 

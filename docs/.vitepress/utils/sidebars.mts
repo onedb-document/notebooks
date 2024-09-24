@@ -91,7 +91,11 @@ class ModuleManager {
       ...this.genMultiSidebar(['git', 'js', 'mistakes', 'shared', 'subjects']),
       ['/tools/']: [
         this.genSingleSidebar('webnav', { text: '网址导航' }),
-        this.genSingleSidebar('frp', { text: '内网穿透', collapsed: true }),
+        {
+          text: '内网穿透',
+          collapsed: true,
+          items: [this.genSingleSidebar('frp')],
+        },
         {
           text: '网络代理',
           collapsed: true,
@@ -103,7 +107,7 @@ class ModuleManager {
           items: [this.genSingleSidebar('netlify'), this.genSingleSidebar('nginx')],
         },
         this.genSingleSidebar('system-operation', {
-          text: '系统操作整理',
+          text: '系统操作',
           collapsed: true,
         }),
       ],

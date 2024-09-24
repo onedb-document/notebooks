@@ -2,7 +2,7 @@
 
 使用 netlify 部署前端应用，包括静态站点、nodejs 函数等等。
 
-相关文档地址：
+相关文档地址整理：
 
 - [netlify 官网](https://www.netlify.com/)
 - [netlify cli](https://cli.netlify.com/)

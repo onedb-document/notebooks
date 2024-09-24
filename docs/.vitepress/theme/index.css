@@ -51,3 +51,23 @@ iframe {
 /* .VPDoc img {
   margin: 0 auto;
 } */
+
+/* 最多显示1行 */
+.ellipsis-multiline-1 {
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 最多显示2行 */
+.ellipsis-multiline-2 {
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

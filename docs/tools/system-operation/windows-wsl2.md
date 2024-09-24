@@ -1,6 +1,9 @@
 # wsl2
 
-参考[官网](https://learn.microsoft.com/zh-cn/windows/wsl/install-manual)的安装步骤，实践如下：
+> [!tip] 概要
+>
+> - 记录了在 windows10 系统上启用了 wsl2 的步骤
+> - 详细步骤可以直接参考[官网](https://learn.microsoft.com/zh-cn/windows/wsl/install-manual)，没有遇到坑
 
 ## 1. 启用适用于 Linux 的 Windows 子系统
 

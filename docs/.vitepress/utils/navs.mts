@@ -23,17 +23,17 @@ const learningNavs: DefaultTheme.NavItem[] = [
     link: '/mistakes/home',
   },
   {
-    text: '专题总结',
+    text: '专题集',
     activeMatch: '/subjects',
-    link: '/subjects/html-layout/home',
+    link: '/subjects/home',
   },
 ]
 
 const toolNavs: DefaultTheme.NavItem[] = [
   {
-    text: '工具',
-    link: '/tools/webnav/frontend',
+    text: '工具集',
     activeMatch: '/tools/webnav',
+    link: '/tools/webnav/frontend',
   },
 ]
 

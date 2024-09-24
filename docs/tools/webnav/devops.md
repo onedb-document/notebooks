@@ -1,17 +1,18 @@
+<script setup>
+import { devopsData } from './_vp-url-data.ts'
+import VpUrlGroup from './_vp-url-group.vue'
+</script>
+
 # 运维
 
 ## CI/CD
 
-- [jenkins](https://www.jenkins.io/)
-- [Github Actions](https://docs.github.com/zh/actions)
+<VpUrlGroup :data="devopsData['CI/CD']" />
 
 ## 服务部署
 
-- [docker](https://www.docker.com/)
-- [docker hub](https://hub.docker.com/)
-- [k8s](https://kubernetes.io/zh-cn/)
+<VpUrlGroup :data="devopsData['服务部署']" />
 
 ## 服务监控
 
-- [sentry](https://sentry.io/)
-- [sensors 神策埋点](https://www.sensorsdata.cn/)
+<VpUrlGroup :data="devopsData['服务监控']" />

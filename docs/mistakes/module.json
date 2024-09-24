@@ -3,7 +3,7 @@
   "path": "/mistakes",
   "sidebar": [
     {
-      "text": "见不贤而内自省也",
+      "text": "吾日三省吾身",
       "items": [
         {
           "text": "js",
@@ -22,6 +22,10 @@
               "link": "/css/common"
             }
           ]
+        },
+        {
+          "text": "nginx",
+          "link": "/nginx/home"
         }
       ]
     }
